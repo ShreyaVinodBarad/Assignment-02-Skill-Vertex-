@@ -1,0 +1,51 @@
+
+*{
+    background-color: darkorchid;
+    padding-left:20px;
+    
+}
+.navBar{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px 20px;
+}
+button{
+    margin-left: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 25px;
+    color:darkorchid;
+    background-color: white;
+    font-weight: bold;
+}
+.heading{
+    display:inline-block;
+    padding: 10px 20px;
+    font-size: 35px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.img2 img{
+    width: 960px;
+    height: 1000px;
+    float: right;
+    position: absolute;
+    top: 180px;
+    left: 580px;
+   padding: 45px;    
+}
