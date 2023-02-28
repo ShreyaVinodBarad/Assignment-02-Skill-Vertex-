@@ -5,6 +5,10 @@
     padding-right: 20px;
     
 }
+/* body{
+    background: linear-gradient(darkorchid 50%,white 50%);
+
+} */
 .navBar{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
@@ -76,14 +80,16 @@ img{
     height: 80px;
     font-size: 35px;
 }
-.search{
+.searchBox i{
     position: absolute;
     border-radius: 50%;
     border: none;
-    top: 985px;
-    left: 650px;
+    width: 40px;
+    height: 40px;
+    top: 990px;
+    left: 700px;
     background-color:orangered;
-    font-size: 40px;
+    font-size: 35px;
     padding: 14px 35px;
     color: white;
     cursor: pointer;
@@ -101,4 +107,232 @@ img{
     margin: 30px;
     width: 1400px;
     height: 400px;
+}
+.img3 img{
+    position: absolute;
+    top: 1800px;
+    width: 550px;
+    height: 650px;
+}
+.img3 h1{
+    position: absolute;
+    top: 1800px;
+    left: 690px;
+    font-size: 85px;
+    font-weight: bold;
+    color: white;
+}
+.img3 p{
+    position: absolute;
+    left: 690px;
+    top: 2200px;
+    color: white;
+    font-size: 25px;
+}
+.box1{
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 2370px;
+    width: 290px;
+    height: 290px;
+    left: 450px;
+    background-color: goldenrod;
+    font-size: 35px;
+}
+.box2{
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 2370px;
+    width: 290px;
+    height: 290px;
+    left: 850px;
+    background-color: goldenrod;
+    font-size: 35px;
+}
+.box3{
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 2370px;
+    width: 290px;
+    height: 290px;
+    left: 1250px;
+    background-color: goldenrod;
+    font-size: 35px;
+}
+.whiteHead h2{
+    position: absolute;
+    top: 2800px;
+    font-weight: bold;
+    font-size: 75px;
+
+}
+.whiteHead h4{
+    position: absolute;
+    top: 3150px;
+    font-size: 35px;
+}
+.whiteHead img{
+    position: absolute;
+    top: 2800px;
+    left: 980px;
+    width: 574px;
+    height: 600px;
+}
+.whiteHead i{
+    position: absolute;
+    top: 3200px;
+    left: 500px;
+    font-size: 35px;
+}
+.img5 img{
+    position: absolute;
+    top: 3300px;
+    width: 774px;
+    height: 474;
+}
+.img5 h2{
+    position: absolute;
+    top: 3450px;
+    left: 980px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.img5 h3{
+    position: absolute;
+    top: 3550px;
+    left: 980px;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.img6 h2{
+    position: absolute;
+    top: 3800px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.img6 h3{
+    position: absolute;
+    top: 3900px;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.img6 img{
+    position: absolute;
+    top: 3800px;
+    left: 980px;
+    width: 574px;
+    height: 300px;
+}
+.head7 h2{
+    position: absolute;
+    top: 4200px;
+    left: 980px; 
+    font-size: 35px;
+    font-weight: bold;
+}
+.head7 h3{
+    position: absolute;
+    top: 4300px;
+    left: 980px;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.head8 h1{
+    position: absolute;
+    top: 4550px;
+    font-size: 65px;
+    font-weight: bold;
+    color: black
+
+}
+.box01 h1{
+    position: absolute;
+    top: 4800px;
+    width: auto;
+    height: 60px;
+    background-color: goldenrod;
+    font-size: 35px;
+    text-align: center;
+    left: 110px;
+}
+.box01 h2{
+    position: absolute;
+    top: 4960px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.box01 h3{
+    position: absolute;
+    top: 5000px;
+    font-size: 25px;
+    color: whitesmoke;
+
+}
+.box01 h4{
+    position: absolute;
+    font-size: 35px;
+    color: black;
+    top: 4780px;
+    left:680px;
+}
+.box02 h1{
+    position: absolute;
+    top: 4800px;
+    width: auto;
+    height: 60px;
+    background-color: goldenrod;
+    font-size: 35px;
+    text-align: center;
+    left: 600px;
+}
+.box02 h2{
+    position: absolute;
+    top: 4960px;
+    font-size: 30px;
+    font-weight: bold;
+    left: 600px;
+
+}
+.box02 h3{
+    position: absolute;
+    top: 5000px;
+    font-size: 25px;
+    color: whitesmoke;
+    left: 600px;
+}
+.box02 h4{
+    position: absolute;
+    font-size: 35px;
+    color: black;
+    top: 4780px;
+    left:190px;
+}
+.box03 h1{
+    position: absolute;
+    top: 4800px;
+    width: auto;
+    height: 60px;
+    background-color: goldenrod;
+    font-size: 35px;
+    text-align: center;
+    left: 1120px;
+}
+.box03 h2{
+    position: absolute;
+    top: 4960px;
+    font-size: 30px;
+    font-weight: bold;
+    left: 1120px;
+
+}
+.box03 h3{
+    position: absolute;
+    top: 5000px;
+    font-size: 25px;
+    color: whitesmoke;
+    left: 1120px;
 }
