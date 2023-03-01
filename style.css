@@ -1,6 +1,6 @@
 
 .container{
-    min-height:860vh;
+    min-height:730vh;
     width: 218vh;
 }
 .top{
@@ -9,8 +9,13 @@
     width: 218;
 }
 .bottom{
-    height:529 vh;
+    height:399 vh;
     background-color:white;
+    width: 218vh;
+}
+.footer{
+    height: 50vh;
+    background-color: lightgray;
     width: 218vh;
 }
 
@@ -352,4 +357,100 @@ img{
     font-size: 25px;
     color: grey;
     left: 1120px;
+}
+.bottomHead h1{
+    position: absolute;
+    left: 100px;
+    top: 5200px;
+    font-size: 90px;
+}
+.bottomHead h3{
+    position: absolute;
+    left: 750px;
+    top: 5250px;
+    font-size: 25px;
+    color:grey;
+}
+
+.footer1 h4{
+    position: absolute;
+    left: 150px;
+    top: 5700px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer1 ul{
+    position: absolute;
+    left: 80px;
+    top: 5770px;
+    font-size: 20px;
+    color: slategray;
+    cursor: pointer;
+}
+
+.footer2 h4{
+    position: absolute;
+    left: 400px;
+    top: 5700px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer2 ul{
+    position: absolute;
+    left: 350px;
+    top: 5770px;
+    font-size: 20px;
+    color: slategray;
+    cursor: pointer;
+}
+.footer3 h4{
+    position: absolute;
+    left: 700px;
+    top: 5700px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer3 ul{
+    position: absolute;
+    left: 640px;
+    top: 5770px;
+    font-size: 20px;
+    color: slategray;
+    cursor: pointer;
+}
+.footer4 h4{
+    position: absolute;
+    left: 1000px;
+    top: 5700px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer4 ul{
+    position: absolute;
+    left: 950px;
+    top: 5770px;
+    font-size: 20px;
+    color: slategray;
+    cursor: pointer;
+}
+.footer5 h4{
+    position: absolute;
+    left:1350px;
+    top: 5700px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.footer5 ul{
+    position: absolute;
+    left: 1300px;
+    top: 5770px;
+    font-size: 20px;
+    color: slategray;
+    cursor: pointer;
+}
+.head h5{
+    position: absolute;
+    left: 140px;
+    color: slategray;
+    top: 5950px;
 }
