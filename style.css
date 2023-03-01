@@ -41,7 +41,7 @@ li{
 .signUpBtn{
     margin-left: 10px;
     border-radius: 50px;
-    
+    border: none;
     font-size: 25px;
     color:darkorchid;
     background-color: white;
@@ -92,6 +92,7 @@ img{
     width:750px;
     height: 80px;
     font-size: 35px;
+    border: none;
 }
 
 .searchBox i{
@@ -375,14 +376,14 @@ img{
 .footer1 h4{
     position: absolute;
     left: 150px;
-    top: 5850px;
+    top: 5800px;
     font-size: 25px;
     cursor: pointer;
 }
 .footer1 ul{
     position: absolute;
     left: 80px;
-    top: 5880px;
+    top: 5870px;
     font-size: 20px;
     color: slategray;
     cursor: pointer;
@@ -391,14 +392,14 @@ img{
 .footer2 h4{
     position: absolute;
     left: 400px;
-    top: 5850px;
+    top: 5800px;
     font-size: 25px;
     cursor: pointer;
 }
 .footer2 ul{
     position: absolute;
     left: 350px;
-    top: 5880px;
+    top: 5870px;
     font-size: 20px;
     color: slategray;
     cursor: pointer;
@@ -406,14 +407,14 @@ img{
 .footer3 h4{
     position: absolute;
     left: 700px;
-    top: 5850px;
+    top: 5800px;
     font-size: 25px;
     cursor: pointer;
 }
 .footer3 ul{
     position: absolute;
     left: 640px;
-    top: 5880px;
+    top: 5870px;
     font-size: 20px;
     color: slategray;
     cursor: pointer;
@@ -421,14 +422,14 @@ img{
 .footer4 h4{
     position: absolute;
     left: 1000px;
-    top: 5850px;
+    top: 5800px;
     font-size: 25px;
     cursor: pointer;
 }
 .footer4 ul{
     position: absolute;
     left: 950px;
-    top: 5880px;
+    top: 5870px;
     font-size: 20px;
     color: slategray;
     cursor: pointer;
@@ -436,14 +437,14 @@ img{
 .footer5 h4{
     position: absolute;
     left:1350px;
-    top: 5850px;
+    top: 5800px;
     font-size: 25px;
     cursor: pointer;
 }
 .footer5 ul{
     position: absolute;
     left: 1300px;
-    top: 5880px;
+    top: 5870px;
     font-size: 20px;
     color: slategray;
     cursor: pointer;
@@ -452,5 +453,5 @@ img{
     position: absolute;
     left: 140px;
     color: slategray;
-    top: 6200px;
+    top: 6050px;
 }
