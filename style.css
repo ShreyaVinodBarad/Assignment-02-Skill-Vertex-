@@ -375,14 +375,14 @@ img{
 .footer1 h4{
     position: absolute;
     left: 150px;
-    top: 5800px;
+    top: 5840px;
     font-size: 25px;
     cursor: pointer;
 }
 .footer1 ul{
     position: absolute;
     left: 80px;
-    top: 5850px;
+    top: 5880px;
     font-size: 20px;
     color: slategray;
     cursor: pointer;
