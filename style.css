@@ -1,20 +1,25 @@
 
-*{
-    background-color: darkorchid;
-    padding-left:20px;
-    padding-right: 20px;
-    
+.container{
+    min-height:860vh;
+    width: 218vh;
 }
-/* body{
-    background: linear-gradient(darkorchid 50%,white 50%);
+.top{
+    height: 331vh;
+    background-color: darkorchid;
+    width: 218;
+}
+.bottom{
+    height:529 vh;
+    background-color:white;
+    width: 218vh;
+}
 
-} */
 .navBar{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 40px;
+    padding-right: 80px;
 }
 .navDiv{
     display: flex;
@@ -31,7 +36,7 @@ li{
 .signUpBtn{
     margin-left: 10px;
     border-radius: 50px;
-    padding: 10px;
+    
     font-size: 25px;
     color:darkorchid;
     background-color: white;
@@ -40,13 +45,16 @@ li{
 }
 .heading{
     display:inline-block;
-    padding: 10px 20px;
+    padding: 20px 20px;
     font-size: 35px;
+    padding-left: 40px;
+    padding-right: 80px;
 }
-
 img{
     width: 400px;
     height: 400px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .img2{
     position: relative;
@@ -58,15 +66,15 @@ img{
     height: 950px;
     float: right;
     position: absolute;
-    top: -400px;
-    left: 490px;
-    padding: 45px; 
+    top: -300px;
+    left: 500px;
+    padding-right: 200px;
 }
 .img2 h1{
     position: absolute;
     font-size: 90px;
     color: white;
-    left: -800px;
+    left: -1130px;
     padding-left: 20px;
     display: inline;
 }
@@ -75,16 +83,16 @@ img{
     background-color: white;
     position: absolute;
     top: 980px;
-    left: 80px;
-    width: 700px;
+    left: 60px;
+    width:750px;
     height: 80px;
     font-size: 35px;
 }
+
 .searchBox i{
     position: absolute;
     border-radius: 50%;
-    border: none;
-    width: 40px;
+    width: 5px;
     height: 40px;
     top: 990px;
     left: 700px;
@@ -96,8 +104,8 @@ img{
 }
 .para1{
     position: absolute;
-    top: 1207px;
-    font-size: 35px;
+    top: 1280px;
+    font-size: 45px;
     font-weight:100;
     color: white;
     /* border: 1px solid black; */
@@ -107,16 +115,17 @@ img{
     margin: 30px;
     width: 1400px;
     height: 400px;
+    text-align: left;
 }
 .img3 img{
     position: absolute;
-    top: 1800px;
+    top: 1900px;
     width: 550px;
     height: 650px;
 }
 .img3 h1{
     position: absolute;
-    top: 1800px;
+    top: 1900px;
     left: 690px;
     font-size: 85px;
     font-weight: bold;
@@ -125,14 +134,14 @@ img{
 .img3 p{
     position: absolute;
     left: 690px;
-    top: 2200px;
+    top: 2300px;
     color: white;
     font-size: 25px;
 }
 .box1{
     /* border: 1px solid black; */
     position: absolute;
-    top: 2370px;
+    top: 2450px;
     width: 290px;
     height: 290px;
     left: 450px;
@@ -142,20 +151,20 @@ img{
 .box2{
     /* border: 1px solid black; */
     position: absolute;
-    top: 2370px;
+    top: 2450px;
     width: 290px;
     height: 290px;
-    left: 850px;
+    left: 880px;
     background-color: goldenrod;
     font-size: 35px;
 }
 .box3{
     /* border: 1px solid black; */
     position: absolute;
-    top: 2370px;
+    top: 2450px;
     width: 290px;
     height: 290px;
-    left: 1250px;
+    left: 1300px;
     background-color: goldenrod;
     font-size: 35px;
 }
@@ -164,17 +173,19 @@ img{
     top: 2800px;
     font-weight: bold;
     font-size: 75px;
+    left: 100px;
 
 }
 .whiteHead h4{
     position: absolute;
     top: 3150px;
     font-size: 35px;
+    left: 100px;
 }
 .whiteHead img{
     position: absolute;
     top: 2800px;
-    left: 980px;
+    left: 935px;
     width: 574px;
     height: 600px;
 }
@@ -189,69 +200,73 @@ img{
     top: 3300px;
     width: 774px;
     height: 474;
+    left: 20px;
 }
 .img5 h2{
     position: absolute;
     top: 3450px;
-    left: 980px;
+    left: 1010px;
     font-size: 35px;
     font-weight: bold;
 }
 .img5 h3{
     position: absolute;
     top: 3550px;
-    left: 980px;
+    left: 1010px;
     font-size: 25px;
     font-weight: bold;
-    color: whitesmoke;
+    color:grey;
 }
 .img6 h2{
     position: absolute;
     top: 3800px;
     font-size: 35px;
     font-weight: bold;
+    left: 100px;
 }
 .img6 h3{
     position: absolute;
     top: 3900px;
     font-size: 25px;
     font-weight: bold;
-    color: whitesmoke;
+    color: grey;
+    left: 100px;
 }
 .img6 img{
     position: absolute;
     top: 3800px;
-    left: 980px;
+    left: 940px;
     width: 574px;
     height: 300px;
 }
 .head7 h2{
     position: absolute;
     top: 4200px;
-    left: 980px; 
+    left: 1010px; 
     font-size: 35px;
     font-weight: bold;
 }
 .head7 h3{
     position: absolute;
     top: 4300px;
-    left: 980px;
+    left: 1010px;
     font-size: 25px;
     font-weight: bold;
-    color: whitesmoke;
+    color: grey;
 }
 .head8 h1{
     position: absolute;
-    top: 4550px;
+    top: 4500px;
     font-size: 65px;
     font-weight: bold;
-    color: black
+    color: black;
+    left: 100px;
 
 }
 .box01 h1{
     position: absolute;
     top: 4800px;
-    width: auto;
+    width: 60px;
     height: 60px;
     background-color: goldenrod;
     font-size: 35px;
@@ -263,13 +278,15 @@ img{
     top: 4960px;
     font-size: 30px;
     font-weight: bold;
+    left: 100px;
 
 }
 .box01 h3{
     position: absolute;
     top: 5000px;
     font-size: 25px;
-    color: whitesmoke;
+    color: grey;
+    left: 100px;
 
 }
 .box01 h4{
@@ -282,7 +299,7 @@ img{
 .box02 h1{
     position: absolute;
     top: 4800px;
-    width: auto;
+    width: 60px;
     height: 60px;
     background-color: goldenrod;
     font-size: 35px;
@@ -301,7 +318,7 @@ img{
     position: absolute;
     top: 5000px;
     font-size: 25px;
-    color: whitesmoke;
+    color: grey;
     left: 600px;
 }
 .box02 h4{
@@ -314,7 +331,7 @@ img{
 .box03 h1{
     position: absolute;
     top: 4800px;
-    width: auto;
+    width: 60px;
     height: 60px;
     background-color: goldenrod;
     font-size: 35px;
@@ -333,6 +350,6 @@ img{
     position: absolute;
     top: 5000px;
     font-size: 25px;
-    color: whitesmoke;
+    color: grey;
     left: 1120px;
 }
